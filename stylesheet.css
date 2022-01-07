@@ -103,10 +103,6 @@ header, nav, section, footer {
         flex-flow: row wrap;
     }
     
-    .section__actions > button {
-        
-    }
-    
     footer {
         grid-column: 1 / 13;
         grid-row: 3;
