@@ -1,110 +1,54 @@
 body {
-    background-color: red;
+    margin: 0;
+}
+
+.kingfisher-frontend-kit {
     display: grid;
-    gap: 1rem;
-    grid-template-rows: auto auto 1fr auto;
-    /* min-height: 100vh; */
+    grid-template-areas: 
+        "nav header" 
+        "nav content" 
+        "nav footer";
+    grid-template-columns: minmax(19rem,auto) 1fr;
+    grid-template-rows: minmax(2rem,auto) 1fr minmax(2rem,auto);   
+    min-height: 100vh;    
 }
 
-:root {
-    --primary-button-color: #19686A;
-    --primary-button-color__hover: #A8EFF0;
-    --primary-button-color__active: #002021;
+.frontend-kit__header {
+    grid-area: header;
 }
 
-/* Atoms */
-
-/* -Button- */
-.a-button {
-    display: inline-flex;
-    padding: 0;
-    border: none;
-    cursor: pointer;
-}
-
-.a-button__label {
-    margin: auto;
-    padding: 1rem 1rem;
-}
-
-.a-button--primary {
-    background-color: var(--primary-button-color);
+.frontend-kit__navigation {
+    grid-area: nav;
     color: white;
 }
 
-.a-button--primary:hover {
-    background-color: var(--primary-button-color__hover);
+.frontend-kit__content {
+    grid-area: content;
 }
 
-.a-button--primary:active {
-    background-color: var(--primary-button-color__active);
+.frontend-kit__footer {
+    grid-area: footer;
 }
 
-
-.a-button--tertiary {
-    background-color: transparent;
-    color: var(--primary-button-color);
+button + button {
+    margin-left: 1rem;
 }
 
-.a-button--tertiary:hover {
-    background-color: var(--primary-button-color__hover);
+.side-navigation__header {
+    display: flex;
+    align-items: center;
 }
 
-.a-button--tertiary:active {
-    background-color: var(--primary-button-color__active);
+.frontend-kit__kingfisher {
+    width: 4rem;
+    height: 4rem;
 }
 
-
-
-
-
-
-header, nav, section, footer {
-    padding: 0.5rem;
-    background-color: white;
+.frontend-kit__version {
+    padding: 0.5rem 1.25rem 0.5rem 1rem;
 }
 
-@media (min-width: 768px) {
-    body {
-        display: grid;
-        gap: 2rem;
-        grid-template-columns: repeat(12, minmax(0.1fr));
-    }
-
-    header, nav, section, footer {
-        padding: 0.5rem;
-        background-color: white;
-    }
-    
-    header {
-        grid-column: 1 / 13;
-        grid-row: 1;
-    }
-    
-    nav {
-        grid-column: 1 / 4;
-        grid-row: 2;
-    }
-    
-    section {
-        grid-column: 4 / 13;
-        grid-row: 2;
-        /**/
-    }
-    
-    .section__title {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-    }
-    
-    .section__actions {
-        display: flex;
-        flex-flow: row wrap;
-    }
-    
-    footer {
-        grid-column: 1 / 13;
-        grid-row: 3;
-    }
+.frontend-kit__version__label {
+    font-size: 1.25rem;
+    font-weight: bolder;
 }

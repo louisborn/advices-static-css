@@ -4,34 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
     <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Header</h1>
-    </header>
-    <nav>
-        <p>nav</p>
-        <p>nav</p>
-        <p>nav</p>
-    </nav>
-    <section>
-        <div class="section__title">
-            <h2>main</h2>
-            <p>Some text that is present in main section</p>
-        </div>
-        <div class="section__actions">
-            <button type="button" class="a-button a-button--primary">
-                <div class="a-button__label">Action One</div>
-            </button>
-            <button type="button" class="a-button a-button--tertiary">
-                <div class="a-button__label">Action One</div>
-            </button>
-        </div>
-    </section>
-    <footer>
-        <p>footer</p>
-    </footer>
+    <div class="kingfisher-frontend-kit">
+        <header class="frontend-kit__header">
+            <h1>Header</h1>
+        </header>
+        <nav class="frontend-kit__navigation">
+            <div class="side-navigation__header">
+                <img class="frontend-kit__kingfisher" src="kingfisher.svg" alt="kingfisher pet image">
+                <div class="frontend-kit__version">
+                    <p class="frontend-kit__version__label">Label</p>
+                </div>
+            </div>
+            <p>nav</p>
+            <p>nav</p>
+            <p>nav</p>
+        </nav>
+        <section class="frontend-kit__content">
+            <div class="section__title">
+                <h2>main</h2>
+                <p>Some text that is present in main section</p>
+            </div>
+            <div class="section__actions">
+                <button type="button" class="a-button a-button--primary">
+                    <div class="a-button__label">Action One</div>
+                </button>
+                <button type="button" class="a-button a-button--tertiary">
+                    <div class="a-button__label">Action One</div>
+                </button>
+                <button type="button" class="a-button a-button--secondary">
+                    <div class="a-button__label">Action One</div>
+                </button>
+            </div>
+        </section>
+        <footer class="frontend-kit__footer">
+            <p>footer</p>
+        </footer>
+    </div>
 </body>
 </html>
