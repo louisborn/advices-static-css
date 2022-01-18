@@ -1,5 +1,55 @@
 body {
     margin: 0;
+    background-color: #f8f8f8;
+}
+
+h1, p {
+    margin: 0;
+}
+
+.stock-advice__header__container {
+    padding: 168px 0 168px 0;
+}
+
+.stock-advice__header {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.stock-advice__title {
+    font-family: fantasy;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.stock-advice__subtitle {
+    font-family: serif;
+    font-size: 2rem;
+    color: #666;
+    margin: 0;
+}
+
+/******/
+
+.stock-advice__advice1__container {
+    padding: 250px 0 250px 0;
+    background-color: #0ac5f4;
+}
+
+.stock-advice__advice1 .text__marks-top {
+    font-family: monospace;
+    font-size: 4rem;
+    line-height: 0;
+}
+
+.stock-advice__advice1 .text__small {
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+
+.stock-advice__advice1__text {
+    font-family: monospace;
+    font-size: 3rem;
 }
 
 .kingfisher-frontend-kit {
@@ -40,8 +90,20 @@ button + button {
 }
 
 .frontend-kit__kingfisher {
-    width: 4rem;
-    height: 4rem;
+    width: 10rem;
+    height: 10rem;
+}
+
+.frontend-kit__summer {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    z-index: 0;
+}
+
+.frontend-kit__header__label {
+    position: absolute;
+    z-index: 1;
 }
 
 .frontend-kit__version {
