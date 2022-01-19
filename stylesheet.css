@@ -91,6 +91,31 @@ p#p-advice2 {
 
 /****/
 
+.beautiful-advice2__container {
+    padding: 264px 0 264px 0;
+    background-color: #fff;
+    font: 2rem 'monospace';
+    font-style: italic;
+}
+
+.beautiful-advice2 {
+    margin: 0 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.beautiful-advice2 hr {
+    background: #333;
+    height: 0.125rem;
+    width: 10%;
+}
+
+.beautiful-advice2 h1 {
+    width: 38%;
+    text-align: center;
+}
 
 
 .kingfisher-frontend-kit {
