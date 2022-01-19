@@ -31,26 +31,67 @@ h1, p {
 
 /******/
 
-.stock-advice__advice1__container {
-    padding: 250px 0 250px 0;
+.beautiful-advice1__container {
+    padding: 264px 0 264px 0;
     background-color: #0ac5f4;
+    font-size: 2rem;
 }
 
-.stock-advice__advice1 .text__marks-top {
-    font-family: monospace;
-    font-size: 4rem;
-    line-height: 0;
+.beautiful-advice1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.stock-advice__advice1 .text__small {
+.beautiful-advice1 h1[class^=text__marks] {
+    font: 4rem 'monospace';
+}
+
+.beautiful-advice1 h1[class=text__normal] {
+    font: 2rem 'monospace';
+}
+
+p.p-explanation {
+    color: black;
+    opacity: 0.5;
+    font-size: 1rem;
+    width: 50%;
+}
+
+p#p-advice2 {
+    color: black;
+    opacity: 0.5;
+    font-size: 1rem;
+    width: 38%;
+}
+
+.beautiful-advice1 div {
+    display: flex;
+    justify-content: center;
+}
+
+.beautiful-advice1 div > * {
+    margin: 0.5rem;
+}
+
+.beautiful-advice1 div h1:nth-child(2) {
+    font: 6rem 'monospace';
+    font-weight: bold;
+}
+
+.beautiful-advice1 .text__small {
     font-family: monospace;
     font-size: 1.5rem;
 }
 
-.stock-advice__advice1__text {
+.beautiful-advice1__text {
     font-family: monospace;
     font-size: 3rem;
 }
+
+/****/
+
+
 
 .kingfisher-frontend-kit {
     display: grid;
