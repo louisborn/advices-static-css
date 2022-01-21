@@ -34,7 +34,7 @@ h1, p {
 .beautiful-advice1__container {
     padding: 264px 0 264px 0;
     background-color: #0ac5f4;
-    font-size: 2rem;
+    font: 2rem 'monospace';
 }
 
 .beautiful-advice1 {
@@ -71,12 +71,8 @@ p#p-advice2 {
     justify-content: center;
 }
 
-.beautiful-advice1 div > * {
-    margin: 0.5rem;
-}
-
 .beautiful-advice1 div h1:nth-child(2) {
-    font: 6rem 'monospace';
+    font: 3rem 'monospace';
     font-weight: bold;
 }
 
@@ -147,6 +143,68 @@ p#p-advice2 {
     border: 0;
     height: 0.5rem;
     margin: 2rem 0;
+}
+
+/****/
+
+.beautiful-advice4__container {
+    padding: 264px 0 264px 0;
+    background-color: #fff;
+    font: 1rem 'monospace';
+}
+
+.beautiful-advice4 {
+    margin: 0 264px;
+    position: relative;
+}
+
+#p-advice3 {
+    opacity: 0.5;
+    font-size: 1rem;
+    padding: 6rem 0 0 0;
+}
+
+.beautiful-advice4 h1 {
+    color: #222;
+    position: relative;
+    z-index: 2;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.beautiful-advice4 h2 {
+    color: #FFF700;
+    font-size: 148px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.beautiful-advice4 h2:nth-child(1) {
+    left: 0;
+}
+
+.beautiful-advice4 h2:nth-child(2) {
+    top: 12rem;
+}
+
+.beautiful-advice4 h2:nth-child(3) {
+    top: 24rem;
+}
+
+/*****/
+
+footer {
+    padding: 32px 0;
+    text-align: center;
+}
+
+footer > a:link {
+    text-decoration: none;
 }
 
 
