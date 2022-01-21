@@ -56,6 +56,7 @@ p.p-explanation {
     opacity: 0.5;
     font-size: 1rem;
     width: 50%;
+    text-align: center;
 }
 
 p#p-advice2 {
@@ -115,6 +116,37 @@ p#p-advice2 {
 .beautiful-advice2 h1 {
     width: 38%;
     text-align: center;
+}
+
+/****/
+
+.beautiful-advice3__container {
+    padding: 264px 0 264px 0;
+    background-color: #c00;
+    font: 1rem 'monospace';
+}
+
+.beautiful-advice3 {
+    margin: 0 264px;
+}
+
+.beautiful-advice3 > h1 {
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.beautiful-advice3__grid {
+    column-count: 2;
+    column-gap: 2rem;
+}
+
+.beautiful-advice3 hr {
+    background: black;
+    border: 0;
+    height: 0.5rem;
+    margin: 2rem 0;
 }
 
 
