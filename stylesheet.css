@@ -12,19 +12,19 @@ h1, p {
 }
 
 .stock-advice__header {
-    margin: 0 auto;
-    width: 800px;
+    margin: auto 4rem;
+    text-align: center;
 }
 
 .stock-advice__title {
     font-family: fantasy;
-    font-size: 4rem;
+    font-size: 6rem;
     margin: 0;
 }
 
 .stock-advice__subtitle {
     font-family: serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #666;
     margin: 0;
 }
