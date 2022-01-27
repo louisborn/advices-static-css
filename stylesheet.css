@@ -68,22 +68,27 @@ SECTION ONE
 
 #section__one h1:nth-child(2) {
     opacity: 0.84;
+    background-color: #036b85;
 }
 
 #section__one h1:nth-child(3) {
     opacity: 0.68;
+    background-color: #036b85;
 }
 
 #section__one h1:nth-child(4) {
     opacity: 0.52;
+    background-color: #036b85;
 }
 
 #section__one h1:nth-child(5) {
     opacity: 0.36;
+    background-color: #036b85;
 }
 
 #section__one h1:nth-child(6) {
     opacity: 0.20;
+    background-color: #036b85;
 }
 
 #section__one h1:nth-child(7) {
