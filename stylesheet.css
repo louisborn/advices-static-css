@@ -1,3 +1,9 @@
+/*
+
+GLOBAL
+
+*/
+
 body {
     margin: 0;
     background-color: #f8f8f8;
@@ -6,6 +12,70 @@ body {
 h1, p {
     margin: 0;
 }
+
+.beautiful-advices {
+    padding: 264px 0 264px 0;
+    font: 2rem 'monospace';
+}
+
+/*
+
+SECTION ONE
+
+*/
+
+.beautiful-advices#bg-color__one {
+    background-color: #0ac5f4;
+}
+
+.beautiful-advices > #section__one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 12rem;
+    color: #fff;
+}
+
+#section__one h1 {
+    font-family: monospace;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+#section__one h1:nth-child(2) {
+    opacity: 0.84;
+}
+
+#section__one h1:nth-child(3) {
+    opacity: 0.68;
+}
+
+#section__one h1:nth-child(4) {
+    opacity: 0.52;
+}
+
+#section__one h1:nth-child(5) {
+    opacity: 0.36;
+}
+
+#section__one h1:nth-child(6) {
+    opacity: 0.20;
+}
+
+#section__one h1:nth-child(7) {
+    opacity: 0.04;
+}
+
+#section__one aside {
+    opacity: 0.68;
+    font-size: 1.5rem;
+}
+
+/* 
+
+SECTION TWO
+
+*/
 
 .stock-advice__header__container {
     padding: 168px 0 168px 0;
@@ -30,18 +100,6 @@ h1, p {
 }
 
 /******/
-
-.beautiful-advice1__container {
-    padding: 264px 0 264px 0;
-    background-color: #0ac5f4;
-    font: 2rem 'monospace';
-}
-
-.beautiful-advice1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .beautiful-advice1 h1[class^=text__marks] {
     font: 4rem 'monospace';
