@@ -121,6 +121,32 @@ SECTION TWO
 
 */
 
+.beautiful-advices#bg-color__two {
+    background-color: #fff;
+}
+
+.beautiful-advices > #section__two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 348px;
+}
+
+#section__two hr {
+    background: #333;
+    height: 0.125rem;
+    width: 10%;
+}
+
+#section__two h1 {
+    width: 38%;
+    text-align: center;
+}
+
+
+
+
+
 .stock-advice__header__container {
     padding: 168px 0 168px 0;
 }
@@ -197,23 +223,10 @@ p#p-advice2 {
     font-style: italic;
 }
 
-.beautiful-advice2 {
-    margin: 0 264px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .beautiful-advice2 hr {
     background: #333;
     height: 0.125rem;
     width: 10%;
-}
-
-.beautiful-advice2 h1 {
-    width: 38%;
-    text-align: center;
 }
 
 /****/
