@@ -145,6 +145,41 @@ SECTION TWO
 
 /* 
 
+SECTION THREE
+
+*/
+
+.beautiful-advices#bg-color__three {
+    background-color: #c00;
+}
+
+#section__three {
+    margin: 0 264px;
+}
+
+#section__three .title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+#section__three > section {
+    column-count: 2;
+    column-gap: 2rem;
+    font-size: 1.5rem;
+}
+
+#section__three hr {
+    background: black;
+    border: 0;
+    height: 0.5rem;
+    margin: 2rem 0;
+}
+
+
+/* 
+
 SECTION FOUR
 
 */
@@ -199,172 +234,6 @@ SECTION FOUR
 
 
 
-
-.stock-advice__header__container {
-    padding: 168px 0 168px 0;
-}
-
-.stock-advice__header {
-    margin: auto 4rem;
-    text-align: center;
-}
-
-.stock-advice__title {
-    font-family: fantasy;
-    font-size: 6rem;
-    margin: 0;
-}
-
-.stock-advice__subtitle {
-    font-family: serif;
-    font-size: 1.5rem;
-    color: #666;
-    margin: 0;
-}
-
-/******/
-
-.beautiful-advice1 h1[class^=text__marks] {
-    font: 4rem 'monospace';
-}
-
-.beautiful-advice1 h1[class=text__normal] {
-    font: 2rem 'monospace';
-}
-
-p.p-explanation {
-    color: black;
-    opacity: 0.5;
-    font-size: 1rem;
-    width: 50%;
-    text-align: center;
-}
-
-p#p-advice2 {
-    color: black;
-    opacity: 0.5;
-    font-size: 1rem;
-    width: 38%;
-}
-
-.beautiful-advice1 div {
-    display: flex;
-    justify-content: center;
-}
-
-.beautiful-advice1 div h1:nth-child(2) {
-    font: 3rem 'monospace';
-    font-weight: bold;
-}
-
-.beautiful-advice1 .text__small {
-    font-family: monospace;
-    font-size: 1.5rem;
-}
-
-.beautiful-advice1__text {
-    font-family: monospace;
-    font-size: 3rem;
-}
-
-/****/
-
-.beautiful-advice2__container {
-    padding: 264px 0 264px 0;
-    background-color: #fff;
-    font: 2rem 'monospace';
-    font-style: italic;
-}
-
-.beautiful-advice2 hr {
-    background: #333;
-    height: 0.125rem;
-    width: 10%;
-}
-
-/****/
-
-.beautiful-advice3__container {
-    padding: 264px 0 264px 0;
-    background-color: #c00;
-    font: 1rem 'monospace';
-}
-
-.beautiful-advice3 {
-    margin: 0 264px;
-}
-
-.beautiful-advice3 > h1 {
-    font-family: serif;
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
-}
-
-.beautiful-advice3__grid {
-    column-count: 2;
-    column-gap: 2rem;
-}
-
-.beautiful-advice3 hr {
-    background: black;
-    border: 0;
-    height: 0.5rem;
-    margin: 2rem 0;
-}
-
-/****/
-
-.beautiful-advice4__container {
-    padding: 264px 0 264px 0;
-    background-color: #fff;
-    font: 1rem 'monospace';
-}
-
-.beautiful-advice4 {
-    margin: 0 264px;
-    position: relative;
-}
-
-#p-advice3 {
-    opacity: 0.5;
-    font-size: 1rem;
-    padding: 6rem 0 0 0;
-}
-
-.beautiful-advice4 h1 {
-    color: #222;
-    position: relative;
-    z-index: 2;
-    width: 50%;
-    font-size: 2rem;
-}
-
-.beautiful-advice4 h2 {
-    color: #FFF700;
-    font-size: 148px;
-    font-weight: bold;
-    text-transform: uppercase;
-    position: absolute;
-    z-index: 1;
-    width: 100%;
-    margin: 0;
-    opacity: 0.5;
-}
-
-.beautiful-advice4 h2:nth-child(1) {
-    left: 0;
-}
-
-.beautiful-advice4 h2:nth-child(2) {
-    top: 12rem;
-}
-
-.beautiful-advice4 h2:nth-child(3) {
-    top: 24rem;
-}
-
-/*****/
 
 footer {
     padding: 32px 0;
