@@ -143,6 +143,59 @@ SECTION TWO
     text-align: center;
 }
 
+/* 
+
+SECTION FOUR
+
+*/
+
+.beautiful-advices#bg-color__four {
+    background-color: #fff;
+}
+
+.beautiful-advices > #section__four {
+    margin: 0 264px;
+    position: relative;
+}
+
+#section__four h1 {
+    position: relative;
+    font-size: 2rem;
+    color: #222;
+    width: 50%;
+    z-index: 2;
+}
+
+#section__four h2 {
+    position: absolute;
+    font-size: 148px;
+    font-weight: bold;
+    color: #FFF700;
+    text-transform: uppercase;
+    opacity: 0.5;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+}
+
+.beautiful-advices > #section__four h2:nth-child(1) {
+    left: 0;
+}
+
+.beautiful-advices > #section__four h2:nth-child(2) {
+    top: 12rem;
+}
+
+.beautiful-advices > #section__four h2:nth-child(3) {
+    top: 24rem;
+}
+
+#section__four p {
+    padding: 6rem 0 0 0;
+    font-size: 1rem;
+    opacity: 0.5;
+}
+
 
 
 
